@@ -45,3 +45,4 @@ void Moter::SetSpeed(int speed)
 	analogWrite(this->_PWM, sp);
 
 }
+
