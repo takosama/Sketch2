@@ -18,6 +18,8 @@ void Omuni::Init(Moter l, Moter r, Moter t)
 	this->_t = t;
 }
 
+
+
 // -1~1 
 void Omuni::Set(int angle,int dif)
 {
@@ -31,4 +33,12 @@ void Omuni::Set(int angle,int dif)
 	this->_l.SetSpeed(ls);
 	this->_r.SetSpeed(rs);
 	this->_t.SetSpeed(dif);
+}
+
+void Omuni::Max()
+{
+	
+	this->_l.SetSpeed(-128);
+	this->_r.SetSpeed(-128);
+	//this->_t.SetSpeed(128);
 }

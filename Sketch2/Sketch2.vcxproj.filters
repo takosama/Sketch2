@@ -17,5 +17,29 @@
   <ItemGroup>
     <None Include="Sketch2.ino" />
   </ItemGroup>
- 
+  <ItemGroup>
+    <ClCompile Include="Moter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Omuni.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sensors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Moter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Omuni.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sensors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="__vm\.Sketch2.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>

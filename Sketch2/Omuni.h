@@ -9,6 +9,7 @@ public:
 	Omuni();
 	~Omuni();
 	void Init(Moter l, Moter r, Moter t);
-	void Set(int angle,int dif);
+	void Set(int angle, int dif);
+	void Max();
 };
 
